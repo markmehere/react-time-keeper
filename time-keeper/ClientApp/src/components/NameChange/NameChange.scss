@@ -1,0 +1,50 @@
+.name-change {
+
+  width: 60%;
+
+  input[type=text] {
+    background-color: #454c59;
+    padding: 12px 20px;
+    width: 100%;
+    clear: both;
+    display: block;
+    border: 2px solid #12292f;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    box-sizing: border-box;
+  }
+
+  p {
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 60%;
+    box-sizing: border-box;
+  }
+
+  button {
+    border: 2px solid #2f6a79;
+    background-color: #2f6a79;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 12px 40px;
+    display: block;
+    margin: 24px auto;
+    box-sizing: border-box;
+  }
+
+  button:hover {
+    background-color: #295a69;
+  }
+
+  button:active {
+    background-color: #162f35;
+  }
+
+  button:disabled {
+    background-color: #454c59;
+    border: 2px solid #12292f;
+    color: #12292f;
+  }
+
+}
