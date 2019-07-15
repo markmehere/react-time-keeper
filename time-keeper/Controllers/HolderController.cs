@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using time_keeper.Models;
 using System.Linq;
 using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
 namespace time_keeper.Controllers
@@ -11,8 +10,6 @@ namespace time_keeper.Controllers
     [ApiController]
     public class HolderController : ControllerBase
     {
-        private string holder = "Joe";
-
         private readonly HolderContext context;
 
         public HolderController(HolderContext context)
